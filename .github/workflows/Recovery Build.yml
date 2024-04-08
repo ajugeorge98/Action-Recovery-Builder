@@ -18,12 +18,12 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: 
-      DEVICE_TREE_BRANCH: https://github.com/ajugeorge98/android_device_cat_S22FLIP.git
+        default: https://github.com/ajugeorge98/android_device_cat_S22FLIP.git
+      DEVICE_TREE_BRANCH: 
         description: Device Tree Branch
         required: true
         default: testing
-      DEVICE_PATH: testing
+      DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
         default: device/cat/S22FLIP
