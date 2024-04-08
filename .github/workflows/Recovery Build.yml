@@ -23,7 +23,7 @@ on:
         description: Device Tree Branch
         required: true
         default: testing
-      DEVICE_PATH:
+      DEVICE_PATH: testing
         description: Path the device tree should be synced to, relative to source root
         required: true
         default: device/cat/S22FLIP
