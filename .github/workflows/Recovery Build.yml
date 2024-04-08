@@ -19,7 +19,7 @@ on:
         description: Device Tree URL
         required: true
         default: 
-      DEVICE_TREE_BRANCH: https://github.com/ajugeorge98/android_device_cat_S22FLIP
+      DEVICE_TREE_BRANCH: https://github.com/ajugeorge98/android_device_cat_S22FLIP.git
         description: Device Tree Branch
         required: true
         default: testing
